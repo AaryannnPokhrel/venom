@@ -1,0 +1,122 @@
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+}
+
+
+.navtext{
+    padding: 0 40px;
+   color: #f5f5f5;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e60000 0;
+    border-radius: 20px;
+    position: sticky;
+    align-items: center;
+    padding: 0 20px;
+    height: 100px;
+}
+
+.navitems{
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    padding: 0 20px;
+}
+
+.navitems a{
+    color: #f5f5f5;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+      color: #e60000;
+      transition: 0.5s;
+}
+
+.container1{
+    padding: 180px 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container1 h1{
+    font-size: 40px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container1 h2{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+
+  body {
+    background-image: url('images/background-mob.jpg');
+    background-size: cover;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .navtext {
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .navitems {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .navitems a {
+    font-size: 18px;
+       font-weight: 600;
+       background-color: #e60000;
+       padding: 3px 20px;
+       border-radius: 10px;
+       text-align: center;
+       width: 120%;
+  }
+
+  .navitems a:hover {
+      color: black;
+      transition: 0.5s;
+}
+
+  .container1 {
+    padding: 120px 20px;
+    text-align: left;
+  }
+
+  .container1 h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .container1 h2 {
+    font-size: 18px;
+  }
+
+}
